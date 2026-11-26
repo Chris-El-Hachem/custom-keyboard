@@ -60,7 +60,7 @@
           "hatch_smoothing_level": 0,
           "hatch_smoothing_value": 0.1,
           "hatch_thickness": 1.0,
-          "min_clearance": 0.5,
+          "min_clearance": 0.2,
           "min_island_area": 10.0,
           "min_thickness": 0.25,
           "pad_connection": 1,
@@ -78,43 +78,51 @@
       ],
       "drc_exclusions": [
         [
-          "hole_clearance|214896250|61392500|14940da6-b314-4c61-9fc3-a66994c51df3|714c2a99-5ddd-41af-9d45-eb501de8a95e",
-          "its the official footprint"
-        ],
-        [
-          "hole_clearance|214896250|61392500|5cc26837-96ae-4f83-b325-3421136a8aba|714c2a99-5ddd-41af-9d45-eb501de8a95e",
-          "its the official footprint"
-        ],
-        [
-          "silk_over_copper|158556250|170637500|24a8364c-d245-4d84-ba0d-400c089879e2|8122a561-8865-400f-9d42-0d0e5a6644f9",
+          "clearance|212000000|57700000|5898d93d-4a30-49cf-817d-de6d3398d5d2|8807b57b-61e3-4c20-bea1-ffd017efd86a",
           ""
         ],
         [
-          "silk_over_copper|158556250|174337500|24a8364c-d245-4d84-ba0d-400c089879e2|cf5e1652-f27f-47bb-aa1e-c241d40d1453",
+          "clearance|212000000|58775000|8807b57b-61e3-4c20-bea1-ffd017efd86a|98b1905c-bafd-47a9-8e6d-6ae1bccc8e11",
           ""
         ],
         [
-          "silk_over_copper|163756250|171737500|9ca58975-59d6-4afb-a8a2-6fff4fac5894|61250e79-e9c3-41a3-aa9b-bc27fc500445",
+          "hole_clearance|208631250|54045000|14940da6-b314-4c61-9fc3-a66994c51df3|714c2a99-5ddd-41af-9d45-eb501de8a95e",
           ""
         ],
         [
-          "silk_over_copper|163756250|175437500|9ca58975-59d6-4afb-a8a2-6fff4fac5894|4b4d4ed9-fc15-4f76-92ab-65752591f209",
+          "hole_clearance|208631250|54045000|5cc26837-96ae-4f83-b325-3421136a8aba|714c2a99-5ddd-41af-9d45-eb501de8a95e",
           ""
         ],
         [
-          "silk_over_copper|168056250|170637500|09d0da9e-7b17-4b01-8a37-39ba479deddf|e9adb521-5ead-4645-98b0-f10b222d235d",
+          "silk_over_copper|248900000|54800000|9ca58975-59d6-4afb-a8a2-6fff4fac5894|4b4d4ed9-fc15-4f76-92ab-65752591f209",
           ""
         ],
         [
-          "silk_over_copper|168056250|174337500|09d0da9e-7b17-4b01-8a37-39ba479deddf|8a89b919-8dc6-44ea-b5a4-bfd65d08e5d4",
+          "silk_over_copper|248900000|65118750|fb3dfbcc-f64c-4f26-92ba-a1aa0fc6743f|8bc3a3c5-99cd-4cd0-973a-735612523043",
           ""
         ],
         [
-          "silk_over_copper|173256250|171737500|fb3dfbcc-f64c-4f26-92ba-a1aa0fc6743f|73c0bf66-25ba-4470-b30d-fae1eed32b1c",
+          "silk_over_copper|250000000|49600000|24a8364c-d245-4d84-ba0d-400c089879e2|cf5e1652-f27f-47bb-aa1e-c241d40d1453",
           ""
         ],
         [
-          "silk_over_copper|173256250|175437500|fb3dfbcc-f64c-4f26-92ba-a1aa0fc6743f|8bc3a3c5-99cd-4cd0-973a-735612523043",
+          "silk_over_copper|250000000|59918750|09d0da9e-7b17-4b01-8a37-39ba479deddf|8a89b919-8dc6-44ea-b5a4-bfd65d08e5d4",
+          ""
+        ],
+        [
+          "silk_over_copper|252600000|54800000|9ca58975-59d6-4afb-a8a2-6fff4fac5894|61250e79-e9c3-41a3-aa9b-bc27fc500445",
+          ""
+        ],
+        [
+          "silk_over_copper|252600000|65118750|fb3dfbcc-f64c-4f26-92ba-a1aa0fc6743f|73c0bf66-25ba-4470-b30d-fae1eed32b1c",
+          ""
+        ],
+        [
+          "silk_over_copper|253700000|49600000|24a8364c-d245-4d84-ba0d-400c089879e2|8122a561-8865-400f-9d42-0d0e5a6644f9",
+          ""
+        ],
+        [
+          "silk_over_copper|253700000|59918750|09d0da9e-7b17-4b01-8a37-39ba479deddf|e9adb521-5ead-4645-98b0-f10b222d235d",
           ""
         ]
       ],
@@ -201,7 +209,7 @@
         "min_text_thickness": 0.15,
         "min_through_hole_diameter": 0.2,
         "min_track_width": 0.2,
-        "min_via_annular_width": 0.2,
+        "min_via_annular_width": 0.15,
         "min_via_diameter": 0.5,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
@@ -813,7 +821,7 @@
         "uuid": "fbba6d86-129d-4260-a304-e796ae0a8e81"
       }
     ],
-    "used_designators": "#PWR1-27,C1-3,C5-24,D1-80,F1,FB1,H1-8,J1-2,LED2,MX1-80,R1-6,R8-10,SW1-3,U1-4,Y1-2",
+    "used_designators": "#FLG1-2,#PWR1-27,C1-3,C5-24,D1-80,F1,FB1,H1-8,J1-2,LED2,MX1-80,R1-6,R8-10,SW1-3,U1-4,Y1-2",
     "variants": []
   },
   "sheets": [
