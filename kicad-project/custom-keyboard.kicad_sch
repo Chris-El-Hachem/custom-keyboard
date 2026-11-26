@@ -233,6 +233,129 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector:TestPoint"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0.762)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "TP"
+				(at 0 6.858 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "TestPoint"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 5.08 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "test point"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "test point tp"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "Pin* Test*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "TestPoint_0_1"
+				(circle
+					(center 0 3.302)
+					(radius 0.762)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "TestPoint_1_1"
+				(pin passive line
+					(at 0 0 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Connector:USB_C_Receptacle_USB2.0_14P"
 			(pin_names
 				(offset 1.016)
@@ -5734,6 +5857,12 @@
 		(uuid "5a89c9fb-3901-46bc-aeea-bd83ba2db3fe")
 	)
 	(junction
+		(at 250.19 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5fcc32ab-95b8-4f64-b0a8-062b58078c78")
+	)
+	(junction
 		(at 238.76 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5930,6 +6059,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8f54eeeb-fb73-4b7a-90fe-a6e318b0d208")
+	)
+	(junction
+		(at 289.56 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "913922d4-41ce-4b55-8088-1eb19a3f76ae")
 	)
 	(junction
 		(at 326.39 39.37)
@@ -6344,6 +6479,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fd9a4bd6-9751-47da-8afa-3d83aad51de0")
+	)
+	(junction
+		(at 245.11 160.02)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fdf0021c-6493-4453-bb44-396d15e1b791")
 	)
 	(no_connect
 		(at 100.33 222.25)
@@ -6927,7 +7068,7 @@
 	)
 	(wire
 		(pts
-			(xy 285.75 160.02) (xy 290.83 160.02)
+			(xy 285.75 160.02) (xy 289.56 160.02)
 		)
 		(stroke
 			(width 0)
@@ -8717,6 +8858,16 @@
 	)
 	(wire
 		(pts
+			(xy 289.56 160.02) (xy 290.83 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b86c277f-228e-4ce5-87b0-7058abed0332")
+	)
+	(wire
+		(pts
 			(xy 344.17 173.99) (xy 351.79 173.99)
 		)
 		(stroke
@@ -9157,6 +9308,16 @@
 	)
 	(wire
 		(pts
+			(xy 251.46 160.02) (xy 250.19 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbf6e0ec-02cc-4511-a853-2cec3914e14c")
+	)
+	(wire
+		(pts
 			(xy 327.66 153.67) (xy 330.2 153.67)
 		)
 		(stroke
@@ -9394,6 +9555,16 @@
 			(type default)
 		)
 		(uuid "f45af6f5-960b-42ae-bc8f-06eabbd602fd")
+	)
+	(wire
+		(pts
+			(xy 250.19 160.02) (xy 245.11 160.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56ec5b7-a73e-45a3-8895-3d88ef006f10")
 	)
 	(wire
 		(pts
@@ -9646,7 +9817,7 @@
 		(uuid "79bc7286-df73-4d2c-9df4-3d1e262f8215")
 	)
 	(label "VBUS"
-		(at 245.11 160.02 0)
+		(at 251.46 160.02 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -16303,7 +16474,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 246.888 155.194 0)
+			(at 242.57 156.718 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -19999,6 +20170,84 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 250.19 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "569a9fb5-397c-4f43-b1c8-0c19475f0bc0")
+		(property "Reference" "TP1"
+			(at 248.158 151.892 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 248.666 154.432 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 255.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 255.27 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 250.19 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "5c66ab72-3d82-49e3-8175-421b1b6a5f81")
+		)
+		(instances
+			(project "custom-keyboard"
+				(path "/fbba6d86-129d-4260-a304-e796ae0a8e81"
+					(reference "TP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "MX_Alps_Hybrid:MX-NoLED")
 		(at 200.66 101.6 0)
 		(unit 1)
@@ -23018,6 +23267,85 @@
 			(project "custom-keyboard"
 				(path "/fbba6d86-129d-4260-a304-e796ae0a8e81"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 289.56 160.02 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "711b0a62-0551-4760-95f2-4331d0666806")
+		(property "Reference" "TP2"
+			(at 292.1 155.4479 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3v3"
+			(at 292.1 157.9879 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Loop_D2.50mm_Drill1.0mm"
+			(at 294.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 294.64 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "test point"
+			(at 289.56 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "d5a68e88-6214-41c6-9cb6-696d6d24bce1")
+		)
+		(instances
+			(project "custom-keyboard"
+				(path "/fbba6d86-129d-4260-a304-e796ae0a8e81"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
